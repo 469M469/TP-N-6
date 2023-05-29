@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ofertas-h{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+    position: absolute;
+    top: -100vh;
+    transition: all .3s ease-in-out;
+}
+.spamm:hover :first-child{
+    top: 0;
+    transition: all 1s ease-in-out;
+}
+.ofertas{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+.oferta{
+    width: 20%;
+    margin: 5%;
+}
+.oferta p{
+    margin: 2rem 0;
+}   
+.oferta h4{
+    font-size: 1.3rem;
+}
+.oferta a{
+    color: black;
+    padding: .2rem;
+}
+.oferta a:hover{
+    background-color: black;
+    color: white;
+}
+.spam{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center ;
+}
